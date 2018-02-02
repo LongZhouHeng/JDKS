@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f9f8f0"
+    >
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/btn_ks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_jsks"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="江苏快三"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_background_select"
+            tools:ignore="HardcodedText">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_jlks"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="吉林快三"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_background_select"
+            tools:ignore="HardcodedText">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_ahks"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="安徽快三"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:textColor="@color/black"
+            android:layout_alignParentEnd="true"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_background_select"
+            tools:ignore="HardcodedText">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_gxks"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="广西快三"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/tv_jsks"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_background_select"
+            tools:ignore="HardcodedText">
+
+        </TextView>
+    </RelativeLayout>
+
+</LinearLayout>

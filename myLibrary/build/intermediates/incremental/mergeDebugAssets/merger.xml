@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\AndroidClass\JDKS\myLibrary\src\main\assets"/><source path="E:\AndroidClass\JDKS\myLibrary\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\AndroidClass\JDKS\myLibrary\src\debug\assets"/></dataSet></merger>

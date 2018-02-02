@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jdruanjian.jdks">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:name=".BaseApplication"
+        android:allowBackup="true"
+        android:allowClearUserData="false"
+        android:icon="@mipmap/pic_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/activity_style"
+        >
+        <activity
+            android:name=".ui.activity.WelcomeActivity"
+            android:theme="@style/AppTheme.Splash"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/activity_style"
+            >
+        </activity>
+        <activity android:name="com.jdruanjian.jdks.ui.activity.LoginActivity"
+        android:theme="@style/activity_style_lottery"
+        >
+
+        </activity>
+        <activity android:name="com.jdruanjian.jdks.ui.activity.FindPassWordActivity"
+            android:theme="@style/activity_style_lottery"
+            >
+
+        </activity>
+        <activity android:name="com.jdruanjian.jdks.ui.activity.RegisterActivity"
+            android:theme="@style/activity_style_lottery"
+            >
+
+        </activity>
+        <activity android:name="com.jdruanjian.jdks.ui.activity.Result_SS_Activity"
+            android:theme="@style/activity_style_lottery"
+            >
+
+        </activity>
+        <activity android:name="com.jdruanjian.jdks.ui.activity.Result_KS_Activity"
+            android:theme="@style/activity_style_lottery"
+            >
+
+        </activity>
+        <activity android:name="com.jdruanjian.jdks.ui.activity.AboutUsActivity"
+            android:theme="@style/activity_style_lottery"
+            >
+
+        </activity>
+    </application>
+
+</manifest>

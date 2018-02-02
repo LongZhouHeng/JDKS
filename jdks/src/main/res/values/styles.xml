@@ -1,0 +1,111 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="activity_style" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@color/app_background_color</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="activity_style_lottery" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@color/app_background_color</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="ActivityStyleNoAnimation" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowBackground">@color/app_background_color</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Full" parent="AppTheme.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="AppTheme.Splash" parent="AppTheme.Full">
+        <item name="android:windowBackground">@drawable/bg_welcome</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/praise</item>
+        <item name="colorPrimaryDark">@color/praise</item>
+        <item name="colorAccent">#9C27B0</item>
+    </style>
+    <!-- Navigation Header -->
+    <style name="NavPage">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal</item>
+        <!-- <item name="android:background">@drawable/nav_page</item> -->
+        <item name="android:background">@color/navpage</item>
+    </style>
+
+
+    <style name="custom_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@color/app_background_color</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="colorPrimary">@color/praise</item>
+        <item name="colorPrimaryDark">@color/praise</item>
+        <item name="colorAccent">@color/praise</item>
+    </style>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light.NoTitleBar">
+
+    </style>
+
+    <style name="ActivityStyleTranslucentNoAnimation" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowBackground">@color/half_transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="default_divider_edge">
+        <item name="android:windowBackground">@color/app_background_color</item>
+        <item name="android:layout_height">@dimen/default_divider</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/divider_color</item>
+    </style>
+
+    <style name="default_divider_middle" parent="@style/default_divider_edge">
+        <item name="android:layout_marginLeft">@dimen/default_spacing_10</item>
+        <item name="android:layout_marginRight">@dimen/default_spacing_10</item>
+    </style>
+
+    <style name="default_divider_vertical">
+        <item name="android:windowBackground">@color/app_background_color</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">@dimen/default_divider</item>
+        <item name="android:background">@color/divider_color</item>
+    </style>
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+
+    <style   name="dialog" parent="@android:style/Theme.Dialog">
+
+        <item name="android:windowFrame">@null</item><!--边框-->
+
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+
+        <item name="android:windowBackground">@color/transparent</item><!--背景透明-->
+
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+
+    </style>
+
+
+</resources>

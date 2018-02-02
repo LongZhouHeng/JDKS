@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:id="@+id/ll_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_background1_full"
+        android:padding="10dp"
+        tools:ignore="UselessParent"
+        >
+
+        <ImageView
+            android:id="@+id/iv_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="ContentDescription"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/tv_academys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ddddddddd"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            tools:ignore="HardcodedText"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/tv_checknum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:gravity="center"
+            android:layout_alignParentEnd="true"
+            tools:ignore="HardcodedText,RelativeOverlap"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

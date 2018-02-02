@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5.0dip"
+    android:layout_marginRight="5.0dip"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_rectangle"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_plan_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="A计划"
+            android:textSize="16sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/bottom_item_text_selector1"
+            tools:ignore="HardcodedText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#66666666" />
+
+        <TextView
+            android:id="@+id/tv_plan_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="B计划"
+            android:textSize="16sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            tools:ignore="HardcodedText"
+            android:textColor="@color/bottom_item_text_selector1"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#66666666" />
+
+        <TextView
+            android:id="@+id/tv_plan_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="C计划"
+            android:textSize="16sp"
+            android:textColor="@color/bottom_item_text_selector1"
+            tools:ignore="HardcodedText" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#66666666" />
+
+        <TextView
+            android:id="@+id/tv_plan_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="D计划"
+            android:textColor="@color/bottom_item_text_selector1"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#66666666" />
+
+        <TextView
+            android:id="@+id/tv_plan_e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="E计划"
+            android:textSize="16sp"
+            android:textColor="@color/bottom_item_text_selector1"
+            tools:ignore="HardcodedText" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#66666666" />
+
+        <TextView
+            android:id="@+id/tv_plan_f"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="F计划"
+            android:textSize="16sp"
+            android:textColor="@color/bottom_item_text_selector1"
+            tools:ignore="HardcodedText" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#66666666" />
+
+        <TextView
+            android:id="@+id/tv_plan_g"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="G计划"
+            android:textSize="16sp"
+            android:textColor="@color/bottom_item_text_selector1"
+            tools:ignore="HardcodedText" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#66666666" />
+
+        <TextView
+            android:id="@+id/tv_plan_h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="H计划"
+            android:textSize="16sp"
+            android:textColor="@color/bottom_item_text_selector1"
+            tools:ignore="HardcodedText" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#66666666" />
+
+        <TextView
+            android:id="@+id/tv_plan_i"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="I计划"
+            android:textSize="16sp"
+            android:textColor="@color/bottom_item_text_selector1"
+            tools:ignore="HardcodedText" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#66666666" />
+
+        <TextView
+            android:id="@+id/tv_plan_j"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="J计划"
+            android:textSize="16sp"
+            android:textColor="@color/bottom_item_text_selector1"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:layout_marginStart="10dp"
+      android:layout_marginEnd="10dp"
+      android:layout_marginBottom="5dp"
+      android:background="@drawable/shape_rectangle"
+      android:orientation="vertical" >
+      <TextView
+          android:id="@+id/tv_cancel"
+          android:layout_width="match_parent"
+          android:layout_height="45dp"
+          android:layout_gravity="center_horizontal"
+          android:gravity="center"
+          android:text="取  消"
+          android:textColor="#228bfe"
+          android:textSize="16sp"
+          tools:ignore="HardcodedText" />
+  </LinearLayout>
+</LinearLayout>

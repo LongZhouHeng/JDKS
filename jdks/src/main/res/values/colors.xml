@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- normal -->
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffef574a</color>
+    <color name="red_1">#f94747</color>
+    <color name="red_text">#fffb0629</color>
+    <color name="red_dark">#FF3030</color>
+    <color name="red_price">#ffff0000</color>
+    <color name="lightgrey">#ffe8ecef</color>
+    <color name="grey">#ff707070</color>
+    <color name="darkgrey">#ff474747</color>
+    <color name="blue">#0799FF</color>
+    <color name="yellow">#ffff8000</color>
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#70000000</color>
+    <color name="autocompletetextview_list_divider">#D8D8D8</color>
+    <color name="autocompletetextview_list_background">#EFEFEF</color>
+    <!-- 背景颜色 -->
+    <color name="app_background_color">#FFF0F0F0</color>
+    <!-- 底部字体颜色 -->
+    <color name="bottom_text_select">#f42f2e</color>
+    <!-- text color -->
+    <color name="text_color_primary">#646464</color>
+    <color name="text_color_secondary">#E5E5E5</color>
+    <color name="text_color_third">#9da1a1</color>
+    <color name="text_color_four">#ff999999</color>
+    <color name="text_color_hint">#ffcccccc</color>
+    <!-- divider -->
+    <color name="line">#eaeff2</color>
+    <color name="textColor_1">#f42f2e</color>
+    <color name="textColor_2">#929292</color>
+    <color name="lightwhite">#fff</color>
+    <color name="divider_color">#ffcccccc</color>
+    <color name="dotted_color">#ffcccccc</color>
+    <color name="province_line_border">#FFC7C7C7</color>
+    <color name="transparents">#313131</color>
+    <color name="praise">#e65a59</color>
+    <color name="text_colors">#FC950D</color>
+    <color name="semi_transparent">#22ffffff</color><!-- 半透明 -->
+    <color name="igray">#ffF2F2F2</color><!-- 用于页面背景 -->
+    <color name="darkblue">#ff7CA0CE</color><!-- actionbar背景 ,即是所有标题栏背景 主题色 -->
+    <color name="igray_et">#ff999999</color><!-- 辅助文字-->
+    <color name="Orange">#F5A100</color><!-- 橙色 -->
+    <color name="dark_grey">#D2D2D2</color><!-- 深灰 -->
+    <color name="wxnavpage">#FFE1E8EB</color>
+    <color name="navpage">#FFE1E8EB</color>
+</resources>

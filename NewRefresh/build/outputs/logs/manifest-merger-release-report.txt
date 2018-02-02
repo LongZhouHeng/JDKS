@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml:1:1-89
+INJECTED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml:1:1-89
+INJECTED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml:1:1-89
+INJECTED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml:1:1-89
+INJECTED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml:1:1-89
+INJECTED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml:1:1-89
+INJECTED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml:1:1-89
+	package
+		ADDED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml:1:70-87
+		INJECTED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml:1:1-89
+		INJECTED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml:1:1-89
+		INJECTED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml
+INJECTED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml
+INJECTED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml
+INJECTED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidClass\JDKS\NewRefresh\src\main\AndroidManifest.xml
